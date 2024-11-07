@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="main-head">Resume Builder</h1>
+    <form class="resume-container">
+        <fieldset>
+            <legend >Personal Information</legend>
+         <div>
+            <label for="name"><b>Name:</b> </label>
+            <input type="text" id="name" placeholder="Enter Your Name" required><br>
+        </div>
+           
+        <div>
+            <label for=""><b> E-mail:</b></label>
+             <input type="email" id="email" placeholder="Email Address" required><br>
+        </div>
+
+        <div>
+            <label for="number"><b>Contact No:</b></label>
+            <input type="text" id="number" placeholder="Your Contact Number">
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <div>           <label for="education"></label>
+            <textarea name="education" id="education" rows="4" cols="50" placeholder="Enter Your Education Details"></textarea>
+        </div>
+ 
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <div>
+            <label for="skills"></label>
+            <textarea id="skills" placeholder="What Skills Do You Have?" rows="4" cols="50"></textarea>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Work Experience
+            </legend>
+            <div>
+             <label for="experience"></label>
+            <textarea id="experience" placeholder="Enter You Work experience Here ..." rows="6" cols="50"></textarea>
+        </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>About You</legend>
+            <div>            <label for="about"></label>
+              <textarea id="about" placeholder="Tell Us More About You!!!" rows="6" cols="50"></textarea>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend >Profile Image</legend>
+            <div>
+            <input type="file" id="image" accept="image/*">
+            <img id="displayImage" alt="Uploaded an Image" style="max-width: 200px; height: auto; border-radius: 50%;">
+             </div>
+        </fieldset>
+
+<button class="submit-btn" type="submit">GENERATE</button>
+    </form>
+
+    <div contenteditable="true" class="finalResume">
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

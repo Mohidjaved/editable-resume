@@ -1,0 +1,87 @@
+.resume-container {
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid lightcoral;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(5, 201, 201);
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: lightcoral;
+    
+}
+.resume-container legend{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color:black ;
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+.resume-container fieldset{
+    border-color: lightcoral;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.resume-container input{
+height: 20px;
+width: 200px;
+}
+
+.resume-container textarea{
+    border-radius: 10px;
+}
+
+.submit-btn{
+    margin-top: 30px;
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+    margin-left: 40%;
+}
+
+.final-resume-head{
+    font-size: 20px;
+}
+
+.finalResume {
+    margin: 20px auto;
+    max-width: 600px;
+    border: 2px solid lightcoral;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+@media screen and (max-width:650px) {
+    .resume-container input {
+        width: auto;
+    }
+    .resume-container fieldset{
+    display: flex;
+    flex-direction: column;
+    }
+    .resume-container textarea {
+        width: 100%;
+    }
+    #image{
+        width: 100%;
+    }
+    #name, #email, #number{
+        width: 100%;
+    }
+    .submit-btn{
+width: 150px;
+font-size: small;
+font-weight: 100;
+margin-left: auto;
+margin-right: auto;
+    }
+}
