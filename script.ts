@@ -30,6 +30,7 @@ detailForm.addEventListener("submit", (event) => {
         <p class="final-resume-head"  contenteditable="true"><b>Skills:</b> ${skills}</p>
         <p class="final-resume-head"  contenteditable="true"><b>Experience:</b> ${experience}</p>
         <p class="final-resume-head"  contenteditable="true"><b>About:</b> ${about}</p>
+        <span>Note: You Can Now Edit This</span>
     `;
 
     if (finalForm) {
